@@ -7,14 +7,14 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          Bonjour, <br /> Je m'appelle
+          Bonjour, <br /> Je suis
           <img src={LogoTitle} alt="developer" />
-          avid
+          avid,
           <br />
           développeur web
         </h1>
         <h2>
-          Développeur sur la stack MERN / MongoDB / Express / React / Node
+          Développeur sur la stack MERN / MongoDB / Express.js / React / Node
         </h2>
         <Link to="/contact" className="flat-button">
           ECRIVEZ-MOI
