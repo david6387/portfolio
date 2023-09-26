@@ -73,14 +73,14 @@
 
             &:first-child {
                 &::after {
-                    content: 'HOME';
+                    content: 'ACCUEIL';
                 }
             }
         }
             
         a.about-link {
             &:after {
-                content: 'ABOUT';
+                content: 'À PROPOS';
             }
         }
 
