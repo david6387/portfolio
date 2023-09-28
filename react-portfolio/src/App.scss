@@ -4,23 +4,24 @@ $primary-color: #ffd700;
 @import 'loaders.css/src/animations/cube-transition.scss';
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/HelveticaNeueCyr-Light.ttf') format('ttf');
-}
-
-@font-face {
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Colvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'), url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), url('./assets/fonts/HelveticaNeueCyr-Light.woff') format('woff');
 }
 
 input,
 textarea {
-  font-family: 'Helvitica Neue';
+  font-family: 'Helvitica';
 }
 
 .loader-active {
