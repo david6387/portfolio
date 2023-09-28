@@ -61,7 +61,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <input
-                    placeholder="Sujet"
+                    placeholder="Objet"
                     type="text"
                     name="subject"
                     required
