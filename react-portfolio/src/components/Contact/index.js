@@ -38,6 +38,48 @@ const Contact = () => {
               idx={15}
             />
           </h1>
+          <p>
+            Eu in culpa in nostrud eu enim veniam aute aute exercitation.
+            Adipisicing occaecat laborum aliqua ea incididunt ea occaecat anim.
+            Dolore magna amet officia Lorem eu culpa voluptate. Incididunt velit
+            occaecat nostrud amet aliquip ad ipsum ipsum laborum occaecat duis
+            sunt nulla. Consequat aute laborum reprehenderit minim.
+          </p>
+          <div className="contact-form">
+            <form>
+              <ul>
+                <li className="half">
+                  <input type="text" name="name" placeholder="Nom" required />
+                </li>
+                <li className="half">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    placeholder="Sujet"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND" />
+                </li>
+              </ul>
+            </form>
+          </div>
         </div>
       </div>
       <Loader type="cube-transition" />
