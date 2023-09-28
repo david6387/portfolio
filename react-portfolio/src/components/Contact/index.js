@@ -1,10 +1,16 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  // const serviceId = process.env.REACT_APP_SERVICE_ID
+  // const templateId = process.env.REACT_APP_TEMPLATE_ID
+  // const publicKey = process.env.REACT_APP_PUBLIC_KEY
+
   const [letterClass, setLetterClass] = useState('text-animate')
+  const refForm = useRef()
 
   useEffect(() => {
     return () =>
@@ -12,6 +18,27 @@ const Contact = () => {
         setLetterClass('text-animate-hover')
       }, 3000)
   }, [])
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_da75jrp',
+        'template_26v303w',
+        refForm.current,
+        'MQ_tzmew_giPaEu9L'
+      )
+      .then(
+        () => {
+          alert('Message bien envoyé!')
+          window.location.reload(false)
+        },
+        () => {
+          alert(`Echec de l'envoi! Essayez une nouvelle fois!`)
+        }
+      )
+  }
 
   return (
     <>
@@ -46,7 +73,7 @@ const Contact = () => {
             sunt nulla. Consequat aute laborum reprehenderit minim.
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input type="text" name="name" placeholder="Nom" required />
