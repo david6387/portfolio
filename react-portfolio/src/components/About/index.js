@@ -9,7 +9,7 @@ import {
   faSass,
 } from '@fortawesome/free-brands-svg-icons'
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
 
 const About = () => {
