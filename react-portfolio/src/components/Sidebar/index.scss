@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 60px;
+    width: 70px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -69,6 +69,7 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
+                font-family: sans-serif;
             }
 
             &:first-child {
@@ -86,7 +87,7 @@
 
         a.projects-link {
             &:after {
-                content: 'PROJETS';
+                content: 'PORTFOLIO';
             }
         }
 
