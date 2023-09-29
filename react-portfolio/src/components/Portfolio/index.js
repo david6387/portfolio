@@ -2,6 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
 import { useEffect, useState } from 'react'
+import portfolioData from '../../data/portfolio.json'
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -12,6 +13,33 @@ const Portfolio = () => {
         setLetterClass('text-animate-hover')
       }, 3000)
   }, [])
+
+  const renderPortfolio = (portfolio) => {
+    return (
+      <div className="images-container">
+        {portfolio &&
+          portfolio.map((port, idx) => {
+            return (
+              <div className="image-box" key={idx}>
+                <img
+                  src={port.cover}
+                  className="portfolio-image"
+                  alt="portolio"
+                />
+                <div className="content">
+                  <p className="name">{port.name}</p>
+                  <h4 className="description">{port.description}</h4>
+                  <button
+                    className="btn"
+                    onClick={() => window.open(port.url)}
+                  ></button>
+                </div>
+              </div>
+            )
+          })}
+      </div>
+    )
+  }
 
   return (
     <>
@@ -24,14 +52,8 @@ const Portfolio = () => {
               idx={15}
             />
           </h1>
-          <p>
-            Eu in culpa in nostrud eu enim veniam aute aute exercitation.
-            Adipisicing occaecat laborum aliqua ea incididunt ea occaecat anim.
-            Dolore magna amet officia Lorem eu culpa voluptate. Incididunt velit
-            occaecat nostrud amet aliquip ad ipsum ipsum laborum occaecat duis
-            sunt nulla. Consequat aute laborum reprehenderit minim.
-          </p>
         </div>
+        <div>{renderPortfolio(portfolioData)}</div>
       </div>
       <Loader type="cube-transition" />
     </>
