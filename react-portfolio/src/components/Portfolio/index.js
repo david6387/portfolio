@@ -24,6 +24,13 @@ const Portfolio = () => {
               idx={15}
             />
           </h1>
+          <p>
+            Eu in culpa in nostrud eu enim veniam aute aute exercitation.
+            Adipisicing occaecat laborum aliqua ea incididunt ea occaecat anim.
+            Dolore magna amet officia Lorem eu culpa voluptate. Incididunt velit
+            occaecat nostrud amet aliquip ad ipsum ipsum laborum occaecat duis
+            sunt nulla. Consequat aute laborum reprehenderit minim.
+          </p>
         </div>
       </div>
       <Loader type="cube-transition" />
