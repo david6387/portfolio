@@ -52,8 +52,8 @@ const Portfolio = () => {
               idx={15}
             />
           </h1>
+          <div>{renderPortfolio(portfolioData)}</div>
         </div>
-        <div>{renderPortfolio(portfolioData)}</div>
       </div>
       <Loader type="cube-transition" />
     </>
