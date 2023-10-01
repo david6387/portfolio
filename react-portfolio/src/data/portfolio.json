@@ -1,24 +1,24 @@
 [
 	{
-		"name": "Booki",
+		"title": "Booki",
 		"cover": "/portfolio-cover/booki.png",
 		"description": "HTML, CSS",
 		"url": "https://github.com/david6387/projet_2_booki_html_css"
     },
     {
-		"name": "Sophie Bluel",
+		"title": "Sophie Bluel",
 		"cover": "/portfolio-cover/sophie-bluel.png",
 		"description": "JavaScript",
 		"url": "https://github.com/david6387/projet_3_sophie_bluel_javascript"
     },
 	{
-		"name": "Kasa",
+		"title": "Kasa",
 		"cover": "/portfolio-cover/kasa.png",
 		"description": "React",
 		"url": "https://github.com/david6387/projet_6_kasa_react_sass"
     },
     {
-		"name": "Mon Vieux Grimoire",
+		"title": "Mon Vieux Grimoire",
 		"cover": "/portfolio-cover/vieux-grimoire.png",
 		"description": "Node.js, Express, MongoDB",
 		"url": "https://github.com/david6387/projet_7_bookstore_express_mongodb/tree/Fixes"

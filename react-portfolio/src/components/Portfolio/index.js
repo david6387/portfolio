@@ -27,12 +27,11 @@ const Portfolio = () => {
                   alt="portolio"
                 />
                 <div className="content">
-                  <p className="name">{port.name}</p>
+                  <p className="title">{port.title}</p>
                   <h4 className="description">{port.description}</h4>
-                  <button
-                    className="btn"
-                    onClick={() => window.open(port.url)}
-                  ></button>
+                  <button className="btn" onClick={() => window.open(port.url)}>
+                    Découvrir
+                  </button>
                 </div>
               </div>
             )
@@ -52,7 +51,7 @@ const Portfolio = () => {
               idx={15}
             />
           </h1>
-          <div>{renderPortfolio(portfolioData)}</div>
+          <div className="card-zone">{renderPortfolio(portfolioData)}</div>
         </div>
       </div>
       <Loader type="cube-transition" />
