@@ -113,3 +113,21 @@
         }
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .about-page,
+    .contact-page {
+        .text-zone {
+            position: absolute;
+            left: 25%;
+            top: 20%;
+            transform: none;
+            width: 60%;
+            display: block;
+            box-sizing: border-box;
+            h1 {
+                font-size: 44px;
+        }
+    }
+}
+}
