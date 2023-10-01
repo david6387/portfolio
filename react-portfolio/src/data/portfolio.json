@@ -12,6 +12,12 @@
 		"url": "https://github.com/david6387/projet_3_sophie_bluel_javascript"
     },
 	{
+		"title": "Nina Carducci",
+		"cover": "/portfolio-cover/nina.png",
+		"description": "SEO, Optimisation, Debug", 
+		"url": "https://github.com/david6387/projet_5_nina_carducci_debug_access_seo"
+    },
+	{
 		"title": "Kasa",
 		"cover": "/portfolio-cover/kasa.png",
 		"description": "React",
