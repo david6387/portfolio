@@ -11,7 +11,7 @@ import {
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
-// import monCvPdf from '../../../public/'
+import monCvPdf from '../../assets/CV.David.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -51,7 +51,9 @@ const About = () => {
             si vous avez une proposition de ce type je serais ravi d'en parler
             avec vous.
           </p>
-          {/* <button onClick={}>Télécharger CV</button> */}
+          <a href={monCvPdf} download="mon_cv.pdf">
+            <button className="flat-button">Télécharger mon CV</button>
+          </a>
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
