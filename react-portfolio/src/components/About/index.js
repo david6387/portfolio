@@ -34,22 +34,21 @@ const About = () => {
             />
           </h1>
           <p>
-            Proident excepteur nostrud nostrud fugiat mollit ullamco qui.
-            Eiusmod nulla anim anim do mollit minim laborum in tempor magna sunt
-            nisi. Velit dolor pariatur laboris magna. Lorem excepteur proident
-            incididunt tempor enim aute irure veniam.
+            Passionné par le web depuis des années j'ai commencé à modifier des
+            sites puis à apprendre à en créer en autodidacte… J'ai fini par
+            réaliser qu'il s'agissait d'une véritable passion et je me suis
+            formé auprès d'OpenClassrooms afin d'en apprendre encore plus! Lors
+            de cette formation appris beaucoup: utiliser React et NodeJs. Je
+            cherche actuellement un poste de Développeur Web.
           </p>
           <p>
-            Proident excepteur nostrud nostrud fugiat mollit ullamco qui.
-            Eiusmod nulla anim anim do mollit minim laborum in tempor magna sunt
-            nisi. Velit dolor pariatur laboris magna. Lorem excepteur proident
-            incididunt tempor enim aute irure veniam.
+            J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Mais
+            également en Back-end, SEO, Methodes agiles.
           </p>
           <p>
-            Proident excepteur nostrud nostrud fugiat mollit ullamco qui.
-            Eiusmod nulla anim anim do mollit minim laborum in tempor magna sunt
-            nisi. Velit dolor pariatur laboris magna. Lorem excepteur proident
-            incididunt tempor enim aute irure veniam.
+            Je cherche à progresser et à participer à des projets challengeants,
+            si vous avez une proposition de ce type je serais ravi d'en parler
+            avec vous.
           </p>
         </div>
         <div className="stage-cube-cont">

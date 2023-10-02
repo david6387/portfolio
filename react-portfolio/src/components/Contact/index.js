@@ -67,11 +67,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Eu in culpa in nostrud eu enim veniam aute aute exercitation.
-            Adipisicing occaecat laborum aliqua ea incididunt ea occaecat anim.
-            Dolore magna amet officia Lorem eu culpa voluptate. Incididunt velit
-            occaecat nostrud amet aliquip ad ipsum ipsum laborum occaecat duis
-            sunt nulla. Consequat aute laborum reprehenderit minim.
+            N'hésitez pas à me contacter pour toute question, collaboration ou
+            pour discuter de vos projets.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -112,11 +109,11 @@ const Contact = () => {
         <div className="info-map">
           David,
           <br />
-          France
+          France,
           <br />
           Bagneux, 92220
           <br />
-          <span>davidcognetm@gmail.com</span>
+          <span>webdev.dcmv@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[48.795294, 2.314432]} zoom={12}>
