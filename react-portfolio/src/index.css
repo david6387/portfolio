@@ -13,8 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   body {
     overflow: visible;
   }
-} */
+}
