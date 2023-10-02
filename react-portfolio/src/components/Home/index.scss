@@ -81,3 +81,18 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    
+    .home-page .text-zone {
+        left: 5%;
+        
+        h1 {
+            font-size: 33px;
+        }
+    }
+
+    .home-page h1 img {
+        width: 30px;
+    }
+}

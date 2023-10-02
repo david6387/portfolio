@@ -49,6 +49,7 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        text-align: justify;
 
         h1 {
             font-size: 53px;
@@ -128,6 +129,24 @@
             h1 {
                 font-size: 44px;
         }
+    }
+}
+}
+
+@media screen and (max-width: 600px) {
+    
+    .top-tags {
+        top: 70px;
+    }
+    
+    .about-page,
+    .contact-page {
+        .text-zone {
+            left: 5%;
+
+            h1{
+                font-size: 33px;
+            }
     }
 }
 }
