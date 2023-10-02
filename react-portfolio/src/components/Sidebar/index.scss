@@ -81,7 +81,7 @@
             
         a.about-link {
             &:after {
-                content: 'À PROPOS';
+                content: 'BIO';
             }
         }
 
@@ -149,7 +149,6 @@
 
             a:after {
                 letter-spacing: 1px;
-                right: 35%;
             }    
         }
         

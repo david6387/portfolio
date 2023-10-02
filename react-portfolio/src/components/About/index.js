@@ -11,6 +11,7 @@ import {
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
+// import monCvPdf from '../../../public/'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -50,6 +51,7 @@ const About = () => {
             si vous avez une proposition de ce type je serais ravi d'en parler
             avec vous.
           </p>
+          {/* <button onClick={}>Télécharger CV</button> */}
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
