@@ -1,182 +1,188 @@
 .contact-page .text-zone {
-    p {
-        font-family: 'La Belle Aurore';
-        font-size: x-large;
-    }
-    
+  p {
+    font-family: 'La Belle Aurore';
+    font-size: x-large;
+  }
 }
 
 .contact-form {
+  width: 100%;
+  margin-top: 20px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 1.5s 1.5s;
+      animation-fill-mode: forwards;
+      clear: both;
+
+      ::placeholder {
+        color: #ffffff97;
+      }
+    }
+
+    li.half {
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  input[type='text'],
+  input[type='email'] {
     width: 100%;
-    margin-top: 20px;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-    ul {
-        padding: 0;
-        margin: 0;
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+  }
 
-        li {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            overflow: hidden;
-            display: block;
-            position: relative;
-            opacity: 0;
-            animation: fadeInUp 1.5s 1.5s;
-            animation-fill-mode: forwards;
-            clear: both;
+  .flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    float: right;
+    border-radius: 4px;
+    margin: 15px 0;
 
-            ::placeholder {
-                color: #ffffff97;
-            }
-        }
-
-        li.half {
-            width: 49%;
-            margin-left: 2%;
-            float: left;
-            clear: none;
-
-            &:first-child {
-                margin-left: 0;
-
-            }
-        }
+    &:hover {
+      background: #ffd700;
+      color: #333;
+      cursor: pointer;
     }
-
-    input[type='text'],
-    input[type='email'] {
-        width: 100%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 0 20px;
-        box-sizing:  border-box;
-    }
-
-    textarea {
-        width: 100%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 20px;
-        min-height: 150px;
-        box-sizing:  border-box;
-    }
-
-    .flat-button {
-        color: #ffd700;
-        background: 0 0;
-        font-size: 11px;
-        letter-spacing: 3px;
-        text-decoration: none;
-        padding: 8px 10px;
-        border: 1px solid #ffd700;
-        float: right;
-        border-radius: 4px;
-        margin: 15px 0;
-
-        &:hover {
-            background: #ffd700;
-            color: #333;
-            cursor: pointer;
-        }
-    }
+  }
 }
 
 .info-map {
-    display: flex;
-    position: absolute;
-    background-color: #000;
-    right: 0;
-    width: 50%;
-    padding: 20px;
-    color: #fff;
-    font-family: 'Helvetica';
-    font-size: 17px;
-    font-weight: 300;
-    opacity: 0;
-    animation: fadeInUp 1.5s 1.5s;
-    animation-fill-mode: forwards;
-    clear: both;
+  display: flex;
+  position: absolute;
+  background-color: #000;
+  right: 0;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  font-weight: 300;
+  opacity: 0;
+  animation: fadeInUp 1.5s 1.5s;
+  animation-fill-mode: forwards;
+  clear: both;
 
-    span {
-        font-size: 16px;
-        display: block;
-        padding-top: 20px;
-        color: #ffd700;
-    }
+  span {
+    font-size: 16px;
+    display: block;
+    padding-top: 20px;
+    color: #ffd700;
+  }
 
-    ul{
-        list-style: none;
-    }
+  ul {
+    list-style: none;
+  }
 }
 
 .map-wrap {
-    background: rgba(8, 253, 216, 0.1);
-    float: right;
-    width: 53%;
-    height: 100%;
+  background: rgba(8, 253, 216, 0.1);
+  float: right;
+  width: 53%;
+  height: 100%;
 }
 
 .leaflet-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    opacity: 0;
-    animation: backInRight 1s 1.2s;
-    animation-fill-mode: forwards;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
 }
 
 .leaflet-popup-content {
-    font-family: 'Helvetica';
-    font-size: 14px;
-    color: #115173;
+  font-family: 'Helvetica';
+  font-size: 14px;
+  color: #115173;
 }
 
 @media screen and (max-width: 1100px) {
-    
-    .info-map {
-        right: 64%;
-        width: 37%;
-        z-index: 10;
-        top: 125%;
-    }
+  .info-map {
+    right: 64%;
+    width: 37%;
+    z-index: 10;
+    top: 125%;
+  }
 
-    .map-wrap {
-        display: block;
-        position: absolute;
-        top: 65%;
-        left: 20%;
-        width: 70%;
-        height: 35%;
+  .info-map {
+    position: relative;
+    width: auto;
+    right: 0;
+    top: 0;
+  }
+
+  .contact-page {
+    .text-zone {
+      position: relative;
+      left: 20%;
+      top: 0;
+      transform: none;
+      width: 70%;
+      display: block;
+      box-sizing: border-box;
+
+      h1 {
+        font-size: 44px;
+      }
     }
-    
+  }
 }
 
 @media screen and (max-width: 600px) {
-    
-    .info-map {
-        position: relative;
-        width: auto;
-        right: 0;
-    }
+  .contact-form ul li.half {
+    width: 100%;
+    margin-left: auto;
+  }
 
-    .map-wrap {
-        top: 137%;
-        left: 0;
-        width: -webkit-fill-available;
-        margin: 0 10%;
-        height: 24%;
-    }
+  .contact-page .text-zone {
+    padding: 30px;
+    left: 0;
+    width: 100%;
+    margin: 0;
 
-    .contact-form ul li.half {
-        width: 100%;
-        margin-left: auto;
+    h1 {
+      font-size: 33px;
     }
+  }
 }

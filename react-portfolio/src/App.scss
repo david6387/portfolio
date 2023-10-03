@@ -10,13 +10,14 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'), url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+    url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
 }
-
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('./assets/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), url('./assets/fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  src: url('./assets/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNeueCyr-Light.woff') format('woff');
 }
 
 input,
@@ -36,4 +37,14 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 600px) {
+  .loader-active {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    margin: 0;
+  }
 }

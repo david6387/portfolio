@@ -30,7 +30,7 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['À', ' ', 'p', 'r', 'o', 'p', 'o', 's']}
+              strArray={[...'À propos']}
               idx={15}
             />
           </h1>
@@ -38,8 +38,7 @@ const About = () => {
             Passionné par le web depuis des années j'ai commencé à modifier des
             sites puis à apprendre à en créer en autodidacte… J'ai fini par
             réaliser qu'il s'agissait d'une véritable passion et je me suis
-            formé auprès d'OpenClassrooms afin d'en apprendre encore plus! Lors
-            de cette formation appris beaucoup: utiliser React et NodeJs. Je
+            formé auprès d'OpenClassrooms afin d'en apprendre encore plus! Je
             cherche actuellement un poste de Développeur Web.
           </p>
           <p>

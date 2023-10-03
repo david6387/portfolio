@@ -50,21 +50,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={[
-                'P',
-                'o',
-                'u',
-                'r',
-                ' ',
-                'm',
-                `'`,
-                'é',
-                'c',
-                'r',
-                'i',
-                'r',
-                'e',
-              ]}
+              strArray={[..."Pour m'écrire"]}
               idx={15}
             />
           </h1>
@@ -144,14 +130,16 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="map-wrap">
-          <MapContainer center={[48.795294, 2.314432]} zoom={12}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[48.795294, 2.314432]}>
-              <Popup>David habite par ici</Popup>
-            </Marker>
-          </MapContainer>
-        </div>
+        {window.innerWidth > 1100 ? (
+          <div className="map-wrap">
+            <MapContainer center={[48.795294, 2.314432]} zoom={12}>
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <Marker position={[48.795294, 2.314432]}>
+                <Popup>David habite par ici</Popup>
+              </Marker>
+            </MapContainer>
+          </div>
+        ) : null}
       </div>
       <Loader type="cube-transition" />
     </>
