@@ -4,6 +4,8 @@ import Loader from 'react-loaders'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
   // const serviceId = process.env.REACT_APP_SERVICE_ID
@@ -110,13 +112,35 @@ const Contact = () => {
             </form>
           </div>
           <div className="info-map">
-            David,
-            <br />
-            France,
-            <br />
-            Bagneux, 92220
-            <br />
-            <span>webdev.dcmv@gmail.com</span>
+            <div>
+              David,
+              <br />
+              France,
+              <br />
+              Bagneux, 92220
+              <br />
+              <span>webdev.dcmv@gmail.com</span>
+            </div>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/davidcmv/"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/david6387"
+                >
+                  <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

@@ -90,6 +90,7 @@
 }
 
 .info-map {
+    display: flex;
     position: absolute;
     background-color: #000;
     right: 0;
@@ -109,6 +110,10 @@
         display: block;
         padding-top: 20px;
         color: #ffd700;
+    }
+
+    ul{
+        list-style: none;
     }
 }
 
