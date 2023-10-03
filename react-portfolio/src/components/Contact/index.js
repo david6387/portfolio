@@ -86,9 +86,9 @@ const Contact = () => {
                 </li>
                 <li>
                   <input
-                    placeholder="Objet"
                     type="text"
                     name="subject"
+                    placeholder="Objet"
                     required
                   />
                 </li>
@@ -100,21 +100,26 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input
+                    type="submit"
+                    className="flat-button"
+                    value="ENVOYER"
+                  />
                 </li>
               </ul>
             </form>
           </div>
+          <div className="info-map">
+            David,
+            <br />
+            France,
+            <br />
+            Bagneux, 92220
+            <br />
+            <span>webdev.dcmv@gmail.com</span>
+          </div>
         </div>
-        <div className="info-map">
-          David,
-          <br />
-          France,
-          <br />
-          Bagneux, 92220
-          <br />
-          <span>webdev.dcmv@gmail.com</span>
-        </div>
+
         <div className="map-wrap">
           <MapContainer center={[48.795294, 2.314432]} zoom={12}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

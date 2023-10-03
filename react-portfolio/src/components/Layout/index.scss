@@ -39,7 +39,6 @@
             font-weight: 400;
             margin-top: 0;
             position: relative;
-            margin-bottom: 40px;
             left: 10px;
         }
 
@@ -91,7 +90,7 @@
     .contact-page {
         .text-zone {
             left: 20%;
-            top: 10%;
+            top: 0;
             transform: none;
             width: 70%;
             display: block;
@@ -114,6 +113,12 @@
             h1{
                 font-size: 33px;
             }
+        }
+    }
+
+    .contact-page {
+        .text-zone {
+            top: 5%
         }
     }
 }
