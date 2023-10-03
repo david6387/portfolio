@@ -2,31 +2,36 @@
 	{
 		"title": "Booki",
 		"cover": "/portfolio-cover/booki.png",
-		"description": "HTML, CSS",
+		"description": "Intégration en HTML et CSS d'une page pour un site de réservation de logements de vacances.",
+		"skills":"HTML, CSS",
 		"url": "https://github.com/david6387/projet_2_booki_html_css"
     },
     {
 		"title": "Sophie Bluel",
 		"cover": "/portfolio-cover/sophie-bluel.png",
-		"description": "JavaScript",
+		"description": "Développement d'une page web dynamique en JavaScript avec récupération de données.",
+		"skills":"JavaScript",
 		"url": "https://github.com/david6387/projet_3_sophie_bluel_javascript"
     },
 	{
 		"title": "Nina Carducci",
 		"cover": "/portfolio-cover/nina.png",
-		"description": "SEO, Optimisation, Debug", 
+		"description": "Optimisation d'un portfolio pour améliorer les performances, le SEO et l'accessibilité.",
+		"skills":"SEO, Optimisation, Debug, WAVE",
 		"url": "https://github.com/david6387/projet_5_nina_carducci_debug_access_seo"
     },
 	{
 		"title": "Kasa",
 		"cover": "/portfolio-cover/kasa.png",
-		"description": "React",
+		"description": "Intégration en React et Sass d'une plateforme de location.",
+		"skills":"React, Sass",
 		"url": "https://github.com/david6387/projet_6_kasa_react_sass"
     },
     {
 		"title": "Mon Vieux Grimoire",
 		"cover": "/portfolio-cover/vieux-grimoire.png",
-		"description": "Node.js, Express, MongoDB",
+		"description": "Développement du backend d'un site de classement et de notation de livres.",
+		"skills":"Node.js, Express, MongoDB",
 		"url": "https://github.com/david6387/projet_7_bookstore_express_mongodb/tree/Fixes"
     }
 ]

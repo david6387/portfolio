@@ -77,10 +77,11 @@
     }
 
     .content {
+        display: block;
+        width: auto;
         position: absolute;
-        width: 100%;
-        z-index: 3;
-        padding: 10px 20px;
+        z-index: 10;
+        padding: 3%;
         transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         background: linear-gradient(
             180deg,
@@ -88,6 +89,10 @@
             rgba(0, 0, 0, 1)
         );
         bottom: -70px;
+
+        p {
+            text-align: justify;
+        }
     }
 
     .title {
@@ -99,7 +104,7 @@
         line-height: 24px;
     }
 
-    .description {
+    .skills {
         font-size: 14px;
         margin-bottom: 5px;
         color: #fff;
@@ -107,7 +112,7 @@
     }
 
     .btn {
-        margin-top: 30px;
+        margin-top: 6px;
         margin-bottom: 10px;
         padding: 0 23px;
         height: 40px;
@@ -158,12 +163,10 @@
     .portfolio-page {
         .text-zone {
             left: 15%;
-            top: 53%;
-            // transform: none;
+            top: 45%;
             width: 80%;
-            // display: block;
-            // box-sizing: border-box;
-            h1 {
+                
+                h1 {
                 font-size: 44px;
             }
         }
