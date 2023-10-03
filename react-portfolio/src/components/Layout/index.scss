@@ -104,11 +104,22 @@
 
 @media screen and (max-width: 600px) {
     
+    .page {
+        position: relative;
+        
+        .container {
+            position: relative;
+        }
+    }
+    
+
     .about-page,
     .contact-page {
         .text-zone {
-            left: 10%;
-            width: 80%;
+            display: block;
+            left: 0;
+            margin: auto 10%;
+            width: auto;
 
             h1{
                 font-size: 33px;
@@ -118,7 +129,7 @@
 
     .contact-page {
         .text-zone {
-            top: 5%
+            top: 12%
         }
     }
 }

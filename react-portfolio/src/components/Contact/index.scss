@@ -149,16 +149,17 @@
 @media screen and (max-width: 600px) {
     
     .info-map {
-        left: 0;
-        width: 50%;
-        top: 87%;
+        position: relative;
+        width: auto;
+        right: 0;
     }
 
     .map-wrap {
-        top: 72%;
-        left: 10%;
-        width: 80%;
-        height: 21%;
+        top: 137%;
+        left: 0;
+        width: -webkit-fill-available;
+        margin: 0 10%;
+        height: 24%;
     }
 
     .contact-form ul li.half {

@@ -75,8 +75,10 @@
 @media screen and (max-width: 600px) {
     
     .home-page .text-zone {
-        left: 10%;
-
+        display: block;
+        left: 0;
+        margin: auto 10%;
+        
         h1 {
             font-size: 33px;
             
