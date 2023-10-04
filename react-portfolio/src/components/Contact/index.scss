@@ -13,6 +13,10 @@
     padding: 0;
     margin: 0;
 
+    .sender-info {
+      display: flex;
+    }
+
     li {
       padding: 0;
       margin: 0;
@@ -34,7 +38,6 @@
     li.half {
       width: 49%;
       margin-left: 2%;
-      float: left;
       clear: none;
 
       &:first-child {
@@ -67,6 +70,11 @@
     box-sizing: border-box;
   }
 
+  .send-btn {
+    display: flex;
+    justify-content: end;
+  }
+
   .flat-button {
     color: #ffd700;
     background: 0 0;
@@ -75,7 +83,6 @@
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #ffd700;
-    float: right;
     border-radius: 4px;
     margin: 15px 0;
 
@@ -171,6 +178,10 @@
   .contact-form ul li.half {
     width: 100%;
     margin-left: auto;
+  }
+
+  .sender-info {
+    flex-direction: column;
   }
 
   .contact-page .text-zone {
