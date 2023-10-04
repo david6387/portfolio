@@ -90,9 +90,9 @@
 .info-map {
   display: flex;
   position: absolute;
+  justify-content: space-between;
   background-color: #000;
   right: 0;
-  width: 50%;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
@@ -102,6 +102,7 @@
   animation: fadeInUp 1.5s 1.5s;
   animation-fill-mode: forwards;
   clear: both;
+  align-items: center;
 
   span {
     font-size: 16px;
@@ -112,6 +113,13 @@
 
   ul {
     list-style: none;
+    li {
+      a {
+        &:hover svg {
+          color: #ffd700;
+        }
+      }
+    }
   }
 }
 
@@ -138,20 +146,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .info-map {
-    right: 64%;
-    width: 37%;
-    z-index: 10;
-    top: 125%;
-  }
-
-  .info-map {
-    position: relative;
-    width: auto;
-    right: 0;
-    top: 0;
-  }
-
   .contact-page {
     .text-zone {
       position: relative;
@@ -184,5 +178,9 @@
     h1 {
       font-size: 33px;
     }
+  }
+
+  .info-map {
+    position: relative;
   }
 }
