@@ -11,7 +11,7 @@ import {
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/index'
 import Loader from 'react-loaders'
-import monCvPdf from '../../assets/CV.David.pdf'
+import monCvPdf from '../../assets/cv.david.webdev.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -50,7 +50,7 @@ const About = () => {
             si vous avez une proposition de ce type je serais ravi d'en parler
             avec vous.
           </p>
-          <a href={monCvPdf} download="mon_cv.pdf">
+          <a href={monCvPdf} download="cv.david.webdev.pdf">
             <button className="flat-button">Télécharger mon CV</button>
           </a>
         </div>
