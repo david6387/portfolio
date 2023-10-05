@@ -35,20 +35,34 @@ const About = () => {
             />
           </h1>
           <p>
-            Passionné par le web depuis des années j'ai commencé à modifier des
-            sites puis à apprendre à en créer en autodidacte… J'ai fini par
-            réaliser qu'il s'agissait d'une véritable passion et je me suis
-            formé auprès d'OpenClassrooms afin d'en apprendre encore plus! Je
-            cherche actuellement un poste de Développeur Web.
+            Après avoir exploré des éxpériences professionnelles variées, j'ai
+            plongé dans l'univers captivant du{' '}
+            <strong>développement web</strong> en 2020. Commençant en
+            autodidacte j'ai décidé de consolider mes compétences avec
+            OpenClassrooms, notamment dans des technologies telles que{' '}
+            <strong>
+              MongoDB, Express, React, Node.js, JavaScript, et le SEO
+            </strong>
+            .
           </p>
           <p>
-            J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Mais
-            également en Back-end, SEO, Methodes agiles.
+            Mon bagage académique et profesionel m'a permis de développer des
+            compétences analytiques, de recherche et de communication utiles
+            dans le développement web. Mon approche méthodique et ma capacité à
+            résoudre des problèmes sont des atouts précieux dans mon nouveau
+            domaine d'expertise.
           </p>
           <p>
-            Je cherche à progresser et à participer à des projets challengeants,
-            si vous avez une proposition de ce type je serais ravi d'en parler
-            avec vous.
+            Je crée des interfaces web dynamiques, conviviales et au design
+            responsive personnalisé en suivant une charte graphique. N'hésitez
+            pas à me contacter pour discuter de vos projets, qu'il s'agisse d'un{' '}
+            <strong>
+              site e-commerce, d'un site vitrine, d'un blog, ou de tout autre
+              projet web innovant
+            </strong>
+            . J'ai hâte de mettre mes compétences au service d'une expérience
+            utilisateur sur-mesure. Vous recherchez un développeur passionnée et
+            motivé pour rejoindre votre équipe, ne cherchez pas plus loin !
           </p>
           <a href={monCvPdf} download="cv.david.webdev.pdf">
             <button className="flat-button">Télécharger mon CV</button>
