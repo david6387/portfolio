@@ -65,7 +65,7 @@
   height: 300px;
   overflow: hidden;
   border-radius: 10px;
-  max-width: calc(33% - 0px);
+  max-width: calc(33% - 5px);
 
   .portfolio-image {
     position: absolute;
@@ -77,7 +77,7 @@
 
   .content {
     display: block;
-    width: auto;
+    width: -webkit-fill-available;
     position: absolute;
     z-index: 10;
     padding: 3%;
@@ -169,7 +169,7 @@
   .image-box {
     flex: 1 1 35%;
     height: 200px;
-    max-width: calc(51% - 10px);
+    max-width: calc(50% - 8px);
   }
 }
 
