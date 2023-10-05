@@ -54,28 +54,30 @@ const About = () => {
             <button className="flat-button">Télécharger mon CV</button>
           </a>
         </div>
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faReact} color="#61DBFB" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faSass} color="#CD6799" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faNodeJs} color="#68A063" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faCss3} color="#264de4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faHtml5} color="#e34c26" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faJsSquare} color="#F0DB4F" />
+        {window.innerWidth > 1100 ? (
+          <div className="stage-cube-cont">
+            <div className="cubespinner">
+              <div className="face1">
+                <FontAwesomeIcon icon={faReact} color="#61DBFB" />
+              </div>
+              <div className="face2">
+                <FontAwesomeIcon icon={faSass} color="#CD6799" />
+              </div>
+              <div className="face3">
+                <FontAwesomeIcon icon={faNodeJs} color="#68A063" />
+              </div>
+              <div className="face4">
+                <FontAwesomeIcon icon={faCss3} color="#264de4" />
+              </div>
+              <div className="face5">
+                <FontAwesomeIcon icon={faHtml5} color="#e34c26" />
+              </div>
+              <div className="face6">
+                <FontAwesomeIcon icon={faJsSquare} color="#F0DB4F" />
+              </div>
             </div>
           </div>
-        </div>
+        ) : null}
       </div>
       <Loader type="cube-transition" />
     </>
