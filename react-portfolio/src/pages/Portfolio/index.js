@@ -1,5 +1,5 @@
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters/index'
+import AnimatedLetters from '../../components/AnimatedLetters/index'
 import Loader from 'react-loaders'
 import { useEffect, useState } from 'react'
 import portfolioData from '../../data/portfolio.json'
