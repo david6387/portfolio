@@ -96,7 +96,7 @@
 
 .info-map {
   display: flex;
-  position: absolute;
+  width: fit-content;
   justify-content: space-between;
   background-color: #000;
   right: 0;
@@ -124,6 +124,8 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding-left: 80px;
+
     li {
       a {
         &:hover svg {
@@ -194,9 +196,9 @@
     h1 {
       font-size: 33px;
     }
-  }
 
-  .info-map {
-    position: relative;
+    .info-map {
+      width: auto;
+    }
   }
 }
