@@ -27,7 +27,7 @@
 		"id": "4",
 		"title": "Kasa",
 		"cover": "/portfolio-cover/kasa.png",
-		"description": "Intégration en React et Sass d'une plateforme de location.",
+		"description": "Intégration en React et Sass d'une plateforme de location. Défi rencontré: la mise en place de bonnes pratiques. Je n'en connaissais pas. J'ai fais la découvert lescomposants réutilisables, l'utilisation de key ou encore la gestion des états.",
 		"skills":"React, Sass",
 		"url": "https://github.com/david6387/projet_6_kasa_react_sass"
     },
@@ -35,7 +35,7 @@
 		"id": "5",
 		"title": "Mon Vieux Grimoire",
 		"cover": "/portfolio-cover/vieux-grimoire.png",
-		"description": "Développement du backend d'un site de classement et de notation de livres.",
+		"description": "Développement du backend d'un site de classement et de notation de livres. Défi rencontré: sécuriser le site contre les injections mais je n'avais aucune connaissance dans ce domaine. J'ai trouvé mongo-sanitize pour nettoyer les données avant de les insérer dans la base de données MongoDB.",
 		"skills":"Node.js, Express, MongoDB",
 		"url": "https://github.com/david6387/projet_7_bookstore_express_mongodb/tree/Fixes"
     }
