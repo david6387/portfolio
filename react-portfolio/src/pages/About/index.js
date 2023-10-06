@@ -35,7 +35,7 @@ const About = () => {
             />
           </h1>
           <p>
-            Après avoir exploré des éxpériences professionnelles variées, j'ai
+            Après avoir exploré des expériences professionnelles variées, j'ai
             plongé dans l'univers captivant du{' '}
             <strong>développement web</strong> en 2020. Commençant en
             autodidacte j'ai décidé de consolider mes compétences avec
@@ -46,7 +46,7 @@ const About = () => {
             .
           </p>
           <p>
-            Mon bagage académique et profesionel m'a permis de développer des
+            Mon bagage académique et profesionnel m'a permis de développer des
             compétences analytiques, de recherche et de communication utiles
             dans le développement web. Mon approche méthodique et ma capacité à
             résoudre des problèmes sont des atouts précieux dans mon nouveau
