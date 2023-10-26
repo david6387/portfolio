@@ -46,7 +46,7 @@ const About = () => {
             .
           </p>
           <p>
-            Mon bagage académique et profesionnel m'a permis de développer des
+            Mon bagage académique et professionnel m'a permis de développer des
             compétences analytiques, de recherche et de communication utiles
             dans le développement web. Mon approche méthodique et ma capacité à
             résoudre des problèmes sont des atouts précieux dans mon nouveau
