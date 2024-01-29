@@ -105,9 +105,9 @@ const Contact = () => {
               <br />
               France,
               <br />
-              Bagneux, 92220
+              Paris - Île-de-France
               <br />
-              <span>webdev.dcmv@gmail.com</span>
+              <span>david.cognet@outlook.com</span>
             </div>
             <ul>
               <li>
