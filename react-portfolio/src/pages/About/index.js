@@ -11,7 +11,7 @@ import {
 import './index.scss'
 import AnimatedLetters from '../../components/AnimatedLetters/index'
 import Loader from 'react-loaders'
-import monCvPdf from '../../assets/cv.david.webdev.pdf'
+import monCvPdf from '../../assets/cv.cognet.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -64,7 +64,7 @@ const About = () => {
             utilisateur sur-mesure. Vous recherchez un développeur passionnée et
             motivé pour rejoindre votre équipe, ne cherchez pas plus loin !
           </p>
-          <a href={monCvPdf} download="cv.david.webdev.pdf">
+          <a href={monCvPdf} download="cv.cognet.pdf">
             <button className="flat-button">Télécharger mon CV</button>
           </a>
         </div>
